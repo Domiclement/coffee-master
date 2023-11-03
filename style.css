@@ -78,7 +78,7 @@ th {
     justify-content: space-around;
 }
 
-table {
+.table-1 {
     background-color: #ede2d5;
     margin-left: 2%;
     width: 45%;
@@ -93,13 +93,14 @@ table {
     position: relative;
     display: inline-block;
     margin-bottom: 5%;
+    border-radius: 7px;
 }
 .title {
     font-size: 16px;
     color: #a6825f;
     text-align: left;
     padding-left: 5%;
-    padding-bottom: 3%;
+    padding-top: 3%;
 }
 
 .input-label {
@@ -126,6 +127,7 @@ table {
     background-color: #ede2d5;
     width: 105%;
     height: 60%;
+    border-radius: 7px;
 }
 
 .input-lb {
@@ -133,7 +135,7 @@ table {
     background-color: #ede2d5;
     font-size: smaller;
     position: absolute;
-    bottom: 321px;
+    bottom: 323px;
     right: 423px;
 
 }
@@ -155,3 +157,55 @@ table {
     background-color: #ede2d5;
     margin: 10px 10px 0px 30px;
 }
+
+.mv {
+    margin-right: 70px;
+}
+
+#table-2 {
+    position: absolute;
+    bottom: 10%;
+    transform: translateX(0%);
+    text-align: none;
+    margin-left: 35em;
+    /* margin-bottom: 1px; */
+}
+
+
+    
+.st {
+    padding-right: 4em;
+    padding-bottom: 5px;
+} 
+
+.mv {
+    padding-left: 4em;
+}
+
+.total {
+    padding-top: 10px;
+}
+
+.total-value {
+    padding-left: 4em;
+    padding-top: 10px;
+}
+
+
+.footer{
+    position: fixed;
+    margin-top: 15%;
+    background-color: peru;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.place-order{
+color: black;
+text-decoration: none;
+font-size: 1.2em;
+}
+
+
